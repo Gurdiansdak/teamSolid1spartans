@@ -76,6 +76,7 @@
 
 .aboutUs_wrapper{
     margin-top: 80px;
+    margin-bottom: 120px;
 }
 
 .aboutUs_wrapper,.aboutUs_projects, .aboutUs_happyClients, .aboutUs_experience{
@@ -172,4 +173,89 @@
     line-height: 26px;
     font-size: 15px;
     font-weight: 600;
+}
+
+.service_desc h2{
+    font-size: 12px;
+    font-weight: 600;
+    color: #919EAB;
+    line-height: 20px;
+}
+
+.service_desc h1{
+    line-height: 64px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #212B31;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.service_desc p{
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #637381;
+    margin-bottom: 40px;
+}
+
+.service_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 32px;
+}
+
+.service_cardSEO, .service_cardMarketing, .service_cardOptimization, .service_cardSocialMarket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    transition: 1s;
+}
+
+.service_cardSEO:hover, .service_cardMarketing:hover, .service_cardOptimization:hover, .service_cardSocialMarket:hover{
+    transform: scale(1.1);
+}
+
+.service_cardSEO h1, .service_cardMarketing h1, .service_cardOptimization h1, .service_cardSocialMarket h1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #212B36;
+}
+.service_cardSEO p, .service_cardMarketing p, .service_cardOptimization p, .service_cardSocialMarket p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #637381;
+}
+
+.service_cardSEO{
+    padding: 40px 32px;
+    background: #FFFFFF;
+    box-shadow: -8px 8px 24px -4px rgba(145, 158, 171, 0.1);
+    border-radius: 16px; 
+}
+
+.service_cardMarketing{
+    padding: 64px 32px;
+    background: #FFFFFF;
+    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+    border-radius: 16px;
+}
+
+.service_cardOptimization{
+    padding: 80px 32px;
+    background: #FFFFFF;
+    box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
+    border-radius: 16px;
+}
+
+.service_cardSocialMarket{
+    background: #FFFFFF;
+    box-shadow: -4px 4px 24px rgba(145, 158, 171, 0.08);
+    border-radius: 16px;
+    padding: 40px 32px;
 }
