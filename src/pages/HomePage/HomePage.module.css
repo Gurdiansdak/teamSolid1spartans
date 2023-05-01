@@ -1,0 +1,175 @@
+
+.boosts{
+    display: flex;
+    flex-direction: column;
+}
+
+.boosts_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boosts_title_name{
+    font-size: 12px;
+    line-height: 20px;
+    color: #FA541C;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.boosts_title h1{
+    line-height: 80px;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Barlow', sans-serif;
+    font-style: inherit;
+    color: #212B36;
+}
+
+.boosts_title_desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #637381;
+    margin-bottom: 50px;
+}
+
+.tryAndSee{
+    display: flex;
+    align-items: center;
+    grid-gap: 45px;
+}
+
+
+
+.tryAndSee_buttonTry{
+    width: 132px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 11px, 22px, 11px, 22px;
+    background-color: #FA541C;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.tryAndSee_buttonSee{
+    border: none;
+    background-color: rgba(28,28,28,0);
+    color: #212B36;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+}
+
+.brands_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.aboutUs_wrapper{
+    margin-top: 80px;
+}
+
+.aboutUs_wrapper,.aboutUs_projects, .aboutUs_happyClients, .aboutUs_experience{
+    display: flex;
+}
+
+.aboutUs_works, .aboutUs_desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs_desc{
+    align-items: end;
+    margin-right: 122px;
+    margin-top: 15px;
+}
+
+.aboutUs_projects, .aboutUs_happyClients, .aboutUs_experience{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.aboutUs_works h1{
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+    color: #212B36;
+}
+
+.aboutUs_works h3{
+    color: #919EAB;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.aboutUs_works h1 sup{
+    color: #FA541C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.aboutUs_projects > div, .aboutUs_happyClients > div, .aboutUs_experience > div{
+    padding-right: 24px;
+    border-right: 1px solid rgba(145, 158, 171, 0.24);
+    width: 100px;
+}
+
+.aboutUs_projects p, .aboutUs_happyClients p, .aboutUs_experience p{
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #637381;
+    margin-left: 40px;
+}
+
+.aboutUs_desc p{
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #637381;
+    text-align: end;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.aboutUs_desc h1{
+    line-height: 64px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #212B31;
+    text-align: end;
+    font-family: 'Barlow', sans-serif;
+}
+
+.aboutUs_desc h2{
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #919EAB;
+    margin-bottom: 16px;
+}
+
+.aboutUs_desc button{
+    border: none;
+    background-color: rgba(28,28,28,0);
+    display: flex;
+    align-items: center;
+    color: #FA541C;
+    grid-gap: 10px;
+    line-height: 26px;
+    font-size: 15px;
+    font-weight: 600;
+}

@@ -1,0 +1,54 @@
+nav, .nav_Left, .nav_Right, .nav_RightImages, .navright_LoginOrJoin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+.nav_Left{
+    font-size: 14px;
+    line-height: 24px;
+    color: #919EAB;
+    grid-gap: 60px;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #919EAB;
+}
+
+.nav_Right .nav_RightImages{
+    grid-gap: 40px;
+    border-right: 2px solid rgba(145, 158, 171, 0.24);
+    padding-right: 28px;
+    margin-right: 20px;
+}
+
+.navright_LoginOrJoin .navright_loginButton{
+    border: none;
+    background-color: rgba(28,28,28,0);
+    color: #212B36;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.navright_LoginOrJoin .navright_joinButton{
+    border: none;
+    background-color: #212B36;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    width: 83px;
+    height: 36px;
+}
+
+
+
+
