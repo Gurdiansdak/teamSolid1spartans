@@ -13,6 +13,18 @@ import SEO from '../../assets/seo4.svg'
 import emailMarketing from '../../assets/#1.png'
 import Optimization from '../../assets/optimization3.png'
 import socialMarketing from '../../assets/soc.marketing2.png'
+import planning from '../../assets/ic_marketing_sketch.svg'
+import research from '../../assets/ic_marketing_search.svg'
+import optimizeWork from '../../assets/ic_marketing_optimization.svg'
+import result from '../../assets/ic_marketing_analysis.svg'
+import vector1 from '../../assets/iconbase-3.svg'
+import vector2 from '../../assets/iconbase-1.svg'
+import vector3 from '../../assets/iconbase-2.svg'
+import cubes from '../../assets/Marketing/Image Ratio.svg'
+import chairs from '../../assets/Marketing/Image Ratio-1.svg'
+import vectorGreu from '../../assets/iconbaseGrey.svg'
+
+
 
 
 
@@ -109,6 +121,81 @@ function HomePage() {
               <h1>Social Marketing</h1>
               <p>Nunc nonummy metus. Donec elit libero</p>
               <img src={vector} alt="vector" />
+            </div>
+          </div>
+        </section>
+
+        <section className={css.workProcess}>
+          <div className={css.workProcess_desc}>
+            <h2>Work Flow</h2>
+            <h1>Working Process</h1>
+            <p>Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, <br /> suscipit non, turpis.</p>
+          </div>
+          <div className={css.workProcess_wrapper}>
+            <div className={css.workProcess_cardPlanning}>
+              <img src={planning} alt="planning" />
+              <button className={css.cardPlanning_button}><p>Planning</p><img src={vector1} alt="vector" /></button>
+            </div>
+            <div className={css.workProcess_cardResearch}>
+              <img src={research} alt="research" />
+              <button className={css.cardResearch_button}><p>Research</p><img src={vector2} alt="vector" /></button>
+            </div>
+            <div className={css.workProcess_cardOptimization}>
+              <img src={optimizeWork} alt="optimization" />
+              <button className={css.cardOptimization_button}><p>Optimization</p><img src={vector3} alt="vector" /></button>
+            </div>
+            <div className={css.workProcess_cardResult}>
+              <img src={result} alt="result" />
+              <button className={css.cardResult_button}><p>Result</p></button>
+            </div>
+          </div>
+        </section>
+
+        <section className={css.ourWork}>
+          <div className={css.ourWork_desc}>
+            <h2>OUR WORK</h2>
+            <h1>Case Studies</h1>
+          </div>
+          <div className={css.ourWork_wrapper}>
+            <div className={css.ourWork_cardMarketing}>
+              <h2>MARKETING</h2>   
+              <h1>General Electric</h1>   
+            </div>
+            <div>
+              <div className={css.ourWork_cardBranding}>
+                <div className={css.cardBranding_desc}>
+                  <img src={cubes} alt="cubes" />
+                  <div >
+                    <h2>BRANDING</h2>
+                    <h1>Bank of America</h1>
+                    <p>Quisque id odio. Nunc egestas, <br /> augue at pellentesque laoreet, <br /> felis eros vehicul</p>
+                    <button>Learn more <img src={vectorGreu} alt="vectorGreu" /></button>
+                  </div>
+                </div>
+                <div className={css.cardBranding_names}>
+                  <h2>SEO</h2>
+                  <h1>Louis Vuitton</h1>
+                </div>
+              </div>
+              <div className={css.ourWork_cardSocial}>
+                <div className={css.cardSocial_names}>
+                    <h2>MARKETING</h2>
+                    <h1>Gillette</h1>
+                </div>
+                <div className={css.cardSocial_desc}>
+                  <img src={chairs} alt="chairs" />
+                  <div>
+                    <h2>SOCIAL</h2>
+                    <h1>Louis Vuitton</h1>
+                    <p>Quisque id odio. Nunc egestas, <br /> augue at pellentesque laoreet, <br /> felis eros vehicul</p>
+                    <button>Learn more <img src={vectorGreu} alt="vectorGreu" /></button>
+                  </div>
+                </div>
+                </div>
+            </div>
+            <div className={css.ourWork_cardWeb}>
+              <h2>WEB</h2>
+              <h1>Gillette</h1>
             </div>
           </div>
         </section>

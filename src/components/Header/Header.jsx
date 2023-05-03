@@ -5,6 +5,7 @@ import globus from "../../assets/OVERLAY COLOR.svg"
 import logo from "../../assets/Logo (1).svg"
 import Buttons from "./ButtonsHeader/Buttons"
 import { Link } from "react-router-dom"
+import darkMode from '../../assets/icons8-символ-луны-30.png'
 
 function Header() {
   return (
@@ -20,6 +21,7 @@ function Header() {
 
             <div className={css.nav_Right}>
                 <div className={css.nav_RightImages}>
+                    <img src={darkMode} alt="" />
                     <img src={search} alt="search" />
                     <img src={globus} alt="globus" />
                 </div>

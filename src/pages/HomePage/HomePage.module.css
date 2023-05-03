@@ -175,14 +175,14 @@
     font-weight: 600;
 }
 
-.service_desc h2{
+.service_desc h2, .workProcess_desc h2, .ourWork_desc h2{
     font-size: 12px;
     font-weight: 600;
     color: #919EAB;
     line-height: 20px;
 }
 
-.service_desc h1{
+.service_desc h1, .workProcess_desc h1, .ourWork_desc h1{
     line-height: 64px;
     font-size: 48px;
     font-weight: 700;
@@ -191,7 +191,7 @@
     margin-bottom: 25px;
 }
 
-.service_desc p{
+.service_desc p, .workProcess_desc p{
     line-height: 28px;
     font-size: 16px;
     font-weight: 400;
@@ -217,6 +217,7 @@
 
 .service_cardSEO:hover, .service_cardMarketing:hover, .service_cardOptimization:hover, .service_cardSocialMarket:hover{
     transform: scale(1.1);
+    cursor: grab;
 }
 
 .service_cardSEO h1, .service_cardMarketing h1, .service_cardOptimization h1, .service_cardSocialMarket h1{
@@ -225,7 +226,7 @@
     line-height: 28px;
     color: #212B36;
 }
-.service_cardSEO p, .service_cardMarketing p, .service_cardOptimization p, .service_cardSocialMarket p{
+.service_cardSEO p, .service_cardMarketing p, .service_cardOptimization p, .service_cardSocialMarket p, .cardBranding_desc p, .cardSocial_desc p{
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
@@ -234,28 +235,263 @@
 
 .service_cardSEO{
     padding: 40px 32px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: -8px 8px 24px -4px rgba(145, 158, 171, 0.1);
     border-radius: 16px; 
 }
 
 .service_cardMarketing{
     padding: 64px 32px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
     border-radius: 16px;
 }
 
 .service_cardOptimization{
     padding: 80px 32px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
     border-radius: 16px;
 }
 
 .service_cardSocialMarket{
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: -4px 4px 24px rgba(145, 158, 171, 0.08);
     border-radius: 16px;
     padding: 40px 32px;
 }
+
+.workProcess{
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding: 40px 0;
+}
+
+.workProcess_wrapper{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 32px;
+}
+
+.workProcess_cardPlanning, .workProcess_cardResearch, .workProcess_cardOptimization, .workProcess_cardResult{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 24px;
+    width: 264px;
+    height: 150px;
+    border-radius: 16px;
+    transition: 1s;
+
+}
+
+.workProcess_cardPlanning:hover, .workProcess_cardResearch:hover, .workProcess_cardOptimization:hover, .workProcess_cardResult:hover{
+    transform: scale(1.1);
+    cursor: grab;
+}
+
+.workProcess_cardPlanning{
+    background-color: #FDAB76;
+    box-shadow: -8px 12px 32px rgba(250, 84, 28, 0.2);
+    margin-top: 60px;
+}
+
+.workProcess_cardResearch{
+    background-color: #77F0ED;
+    box-shadow: -8px 12px 32px rgba(34, 184, 207, 0.2);
+    margin-top: 40px;
+}
+
+.workProcess_cardOptimization{
+    background-color: #FFE475;
+    box-shadow: -8px 12px 32px rgba(255, 200, 26, 0.2);
+    margin-top: 20px;
+
+}
+
+.workProcess_cardResult{
+    background-color: #69F290;
+    box-shadow: -8px 12px 32px rgba(12, 214, 110, 0.2);
+}
+
+.cardPlanning_button, .cardResearch_button, .cardOptimization_button, .cardResult_button{
+    border: none;
+    background-color: rgba(28,28,28,0); 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    grid-gap: 10px;
+    margin-top: 24px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.cardPlanning_button{
+    color: #770508;
+}
+
+.cardResearch_button{
+    color: #063963;
+}
+
+.cardOptimization_button{
+    color: #7A5204;
+}
+
+.cardResult_button{
+    color: #02665B;
+}
+
+.ourWork_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.ourWork_cardMarketing, .ourWork_cardWeb{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 172px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ourWork_cardMarketing h2, .ourWork_cardWeb h2, .cardBranding_names h2, .cardSocial_names h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color:  #919EA1;
+}
+
+.ourWork_cardMarketing h1, .ourWork_cardWeb h1, .cardBranding_names h1, .cardSocial_names h1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.ourWork_cardMarketing{
+    background-image: url(../../assets/Marketing/Image\ Ratio\ Overlay.svg);
+}
+
+.ourWork_cardWeb{
+    background-image: url(../../assets/Marketing/Image\ Ratio\ Overlay-3.svg);
+} 
+
+.cardBranding_desc , .cardSocial_desc {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
+    border-radius: 16px;
+    padding: 5px;
+    width: 564px;
+    height: 360px;
+    position: relative;
+
+}
+
+.cardBranding_desc > div, .cardSocial_desc > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px 24px 24px;
+    gap: 16px;
+    
+}
+.cardBranding_desc h2 , .cardSocial_desc h2{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FA541C;
+}
+
+.cardBranding_desc h1 , .cardSocial_desc h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #212B36;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.cardBranding_desc button, .cardSocial_desc button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 8px;
+    border: none;
+    background-color: rgba(28,28,28,0);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    color: #637381;
+    position: absolute;
+    right: 24px;
+    bottom: 40px;
+}
+
+
+.ourWork_cardBranding, .ourWork_cardSocial{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.ourWork_cardBranding{
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.ourWork_cardSocial{
+    align-items: start;
+}
+
+.cardBranding_names, .cardSocial_names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 172px;
+    height: 172px;
+}
+
+.cardBranding_names{
+    background-image: url(../../assets/Marketing/Image\ Ratio\ Overlay-1.svg);
+}
+
+.cardSocial_names{
+    background-image: url(../../assets/Marketing/Image\ Ratio\ Overlay-2.svg);
+}
+
+
+
+
+
+
+
+
+
+
